@@ -1,6 +1,6 @@
 
 #### Run
-To build and the docker image, follow the steps below.
+To build and run the docker image from the /server directory, follow the steps below.
 
 1. Build the docker image using the Dockerfile
 ```

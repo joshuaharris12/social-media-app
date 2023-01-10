@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import CreatePost from "./components/createPost";
 
 function App() {

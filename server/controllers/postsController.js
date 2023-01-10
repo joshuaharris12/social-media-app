@@ -19,3 +19,12 @@ export const getPosts = async (request, response) => {
         response.status(400).json({"message": error.message});
     }
 }
+
+export const deletePost = async (request, response) => {
+    try {
+        await Post.findByIdAndDelete(request.body.id);
+        response.status(200).json({"message": "Deleted"});
+    } catch (error) {
+        response.status(400).json({"message": error.message});
+    }
+}
